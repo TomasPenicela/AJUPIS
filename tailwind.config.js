@@ -9,10 +9,25 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    maxwidth: {
+      container: "1440px",
+      contentContainer: "1140px",
+      conteinerSmall: "1024px",
+      containerxs: "768px",
+    },
     extend: {
+      screens: {
+        xs: "320px",
+        sm: "375px",
+        sml: "500px",
+        nd: "667px",
+        ndl: "768px",
+        lg: "960px",
+        lgl: "1024px",
+      }, 
       fontFamily: {
         bodyFont: ["Montserrat", " sans-serif"],
-        ttleFont: ["Inter", " sans-serif"],
+        titleFont: ["Inter", " sans-serif"],
       },
       boxShadow: {
         navbarShadow: "0 10px 30px -10px rgba(2,12,27,0.7)",
@@ -22,9 +37,10 @@ module.exports = {
         textLight: "#ffe8fb",
         colorRed: "#ea1538",
         colorLight: "#ff6c3e",
-        hoverColor: "rgba(100,255,218,0.1)",
+        hoverColor: "#FFD4F0",
         bgColor: "#ffd5b8",
       },
+      
     },
   },
   plugins: [],
