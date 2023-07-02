@@ -16,6 +16,9 @@ module.exports = {
       containerxs: "768px",
     },
     extend: {
+      backgroundImage: {
+        'hero-pattern': "url('~/public/assets/images/LogoAJUPIS.png')",
+      },
       screens: {
         xs: "320px",
         sm: "375px",
