@@ -42,6 +42,7 @@ module.exports = {
         colorLight: "#ff6c3e",
         hoverColor: "#FFD4F0",
         bgColor: "#ffd5b8",
+        orange: "rgb(255, 108, 55)",
       },
       
     },
